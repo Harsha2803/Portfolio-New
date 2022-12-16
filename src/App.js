@@ -9,20 +9,20 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 const App = () => {
     return (
       <Router>
         <Navbar/>
-        <Switch>
-          <Route exact path='/'><Home/></Route>
-          <Route exact path='/about'><About/></Route>
-          <Route exact path='/Project'><Project/></Route>
-          <Route exact path='/skill'><Skill/></Route>
-          <Route exact path='/contact'><Contact/></Route>
-        </Switch>
+        <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/Project" element={<Project />} />
+        <Route exact path="/skill" element={<Skill />} />
+        <Route exact path="/contact" element={<Contact />} />
+        </Routes>
         <Footer/>
       </Router>
     )
