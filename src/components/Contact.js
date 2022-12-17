@@ -43,7 +43,7 @@ const Contact = () => {
                         <ul className="sci">
                             <li><a href="tel:+916301989355"><i className="fas fa-phone"></i></a></li>
                             <li><a href="https://github.com/RamaITB044" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/rama-krishna-aa3175203/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/namburu-rama-krishna-aa3175203/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"></i></a></li>
                             <li><a href="https://www.instagram.com/ramakrishna.namburi/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
