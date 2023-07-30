@@ -93,8 +93,8 @@ section .title::after{
     position: unset;
     padding: 5px 0;
     background: rgb(36, 33, 33);
-    border-bottom: 3px solid blueviolet;
-    border-top: 3px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    border-top: 1px solid blueviolet;
 }
 .navbar.sticky.navfixed{
     position: sticky;
@@ -209,7 +209,7 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 500px;
     width: 400px;
     object-fit: cover;
     border-radius: 8px;
@@ -254,9 +254,6 @@ section .title::after{
 }
 
 /* services section styling */
-.services {
-    /* height: 100vh; */
-}
 
 .services, .teams{
     display: flex;
@@ -568,8 +565,8 @@ footer{
     padding: 10px 23px;
     color: #fff;
     text-align: center;
-    border-top: 3px solid blueviolet;
-    border-bottom: 3px solid blueviolet;
+    border-top: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
 }
 footer span a{
     color: blueviolet;
