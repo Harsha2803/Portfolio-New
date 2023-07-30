@@ -36,12 +36,12 @@ const Navbar = () => {
     return (
             <nav className={`navbar ${location.pathname!=='/'?"sticky":""} ${stickyClass}`} stickNavbar>
                 <div className="max-width">
-                    <div className="logo"><Link to="/">Ram<span>ki</span></Link></div>
+                    <div className="logo"><Link to="/">Port<span>folio</span></Link></div>
                     <ul className="menu" ref={menuRef}>
                         <li><Link to="/" className={`menu-btn ${location.pathname==="/"?"active":""}`}>Home</Link></li>
                         <li><Link to="/about" className={`menu-btn ${location.pathname==="/about"?"active":""}`}>About</Link></li>
                         <li><Link to="/skill" className={`menu-btn ${location.pathname==="/skill"?"active":""}`}>Skills</Link></li>
-                        <li><Link to="/project" className={`menu-btn ${location.pathname==="/project"?"active":""}`}>Project</Link></li>
+                        <li><Link to="/project" className={`menu-btn ${location.pathname==="/project"?"active":""}`}>Projects</Link></li>
                         <li><Link to="/contact" className={`menu-btn ${location.pathname==="/contact"?"active":""}`}>Contact</Link></li>
                     </ul>
                     <div className="menu-btn" onClick={menuClick}>
