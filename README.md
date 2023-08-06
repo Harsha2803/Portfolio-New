@@ -1,6 +1,5 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can have a look on project output : https://myportfolio2803.netlify.app/
 
 https://myportfolio2803.netlify.app/
 
