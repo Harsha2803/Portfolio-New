@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <section className="services" id="services">
         <div className="max-width">
-            <h2 className="title">My Project</h2>
+            <h2 className="title">My Projects</h2>
             <div className="serv-content">
                 <a href='https://github.com/Harsha2803' className="card">
                     <div className="img">
